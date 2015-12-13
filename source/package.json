@@ -1,0 +1,30 @@
+{
+  "name": "perseus-parser",
+  "version": "1.0.0",
+  "description": "A collection of utilities intended to parse/process some of the Perseus XML data into a looser syntax, JSON, mainly for the purpose of storing data in a NoSQL database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabojnk/perseus-parsers.git"
+  },
+  "keywords": [
+    "perseus",
+    "latin",
+    "greek",
+    "dictionary"
+  ],
+  "author": "Kevin D. Mahoney",
+  "license": "CC-BY-SA-3.0",
+  "bugs": {
+    "url": "https://github.com/kabojnk/perseus-parsers/issues"
+  },
+  "homepage": "https://github.com/kabojnk/perseus-parsers#readme",
+  "dependencies": {
+    "jsonfile": "^2.2.3",
+    "mongodb": "^2.1.1",
+    "xml2js": "^0.4.15"
+  }
+}

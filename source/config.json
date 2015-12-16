@@ -1,9 +1,12 @@
 {
-	"db": {
-		"host": "localhost",
-		"port": "27017",
-		"username": "",
-		"password": "",
-		"database": "perseus"
-	}
+  "db": {
+    "collections": {
+      "meta": "texts_meta"
+    },
+    "host": "localhost",
+    "port": "27017",
+    "username": "",
+    "password": "",
+    "database": "perseus"
+  }
 }
